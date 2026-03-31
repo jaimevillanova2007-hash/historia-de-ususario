@@ -1,0 +1,31 @@
+# PROGRAMA: INVENTARIO SIMPLE
+
+
+# Solicitar el nombre del producto
+nombre = input("Ingrese el nombre del producto: ")
+
+# Solicitar el precio del producto
+precio = float(input("Ingrese el precio del producto: "))
+
+# Solicitar la cantidad del producto
+cantidad = int(input("Ingrese la cantidad del producto: "))
+
+# Calcular el costo total
+costo_total = precio * cantidad
+
+# Mostrar resultados
+print("\n- RESULTADO DEL INVENTARIO -")
+print("Producto:", nombre)
+print("Precio unitario:", precio)
+print("Cantidad:", cantidad)
+print("Costo total:", costo_total)
+
+# Mostrar en una sola línea
+print("\nProducto:", nombre, "| Precio:", precio, "| Cantidad:", cantidad, "| Total:", costo_total)
+
+
+# DESCRIPCIÓN DEL PROGRAMA
+# Este programa solicita el nombre de un producto,
+# su precio y la cantidad disponible.
+# Luego calcula el costo total multiplicando
+# el precio por la cantidad y muestra los datos.
